@@ -56,7 +56,7 @@ function App() {
           console.log(err);
         });
     }
-  }, [history, token]);
+  }, [history]);
 
   function handleEditProfileClick() {
     setIsEditProfilePopupOpen(true);
